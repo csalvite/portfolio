@@ -27,10 +27,6 @@ export default function Home() {
           Administrador de Sistemas tanto en Windows Server como servidores
           Linux.
         </p>
-        <p>
-          Aquí se puden ver el código de proyectos personales que están en
-          desarrollo o no desplegados a través de mi github:
-        </p>
       </div>
       <h3 className='text-2xl m-2 w-64 border-b-4 pb-2 inline-block'>
         Tecnologías que uso

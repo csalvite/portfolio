@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='es'>
       <body className='flex justify-center items-center bg-gray-800'>
-        <main className='flex gap-4 w-10/12 h-full p-16 text-gray-200'>
+        <main className='flex gap-4 w-10/12 h-full p-16 text-[#dfe1e3]'>
           <aside className='flex flex-col items-center justify-evenly px-4 bg-gray-700 w-96 h-100 rounded-md border border-black'>
             <div className='mt-8 flex flex-col items-center justify-center gap-4'>
               <Image
@@ -30,6 +30,13 @@ export default function RootLayout({ children }) {
               <h2 className='bg-gray-900 p-2 rounded-md text-sm'>
                 Desarrollador Web
               </h2>
+              <a
+                className='text-sm mt-4 hover:text-gray-500 transition ease-in-out duration-300'
+                download
+                href='/CesarAlviteCV.pdf'
+              >
+                <i class='fa-solid fa-file text-2xl mr-2'></i> Descargar CV
+              </a>
             </div>
             <div className='h-64'>
               <ul className='flex flex-col gap-6 list-none cursor-pointer'>
@@ -45,13 +52,13 @@ export default function RootLayout({ children }) {
                   </Link>
                 </li>
                 <li className='transition ease-in-out duration-300 hover:scale-110 hover:text-gray-300'>
-                  <Link href='/'>
+                  <Link href='/experiencie'>
                     <i className='fa-solid fa-building-user text-2xl mr-2'></i>
                     Experiencia
                   </Link>
                 </li>
                 <li className='transition ease-in-out duration-300 hover:scale-110 hover:text-gray-300'>
-                  <Link href='/'>
+                  <Link href='/studies'>
                     <i class='fa-solid fa-graduation-cap text-2xl mr-2'></i>
                     Estudios
                   </Link>
