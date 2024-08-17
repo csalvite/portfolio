@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
                 download
                 href='/CesarAlviteCV.pdf'
               >
-                <i class='fa-solid fa-file text-2xl mr-2'></i> Descargar CV
+                <i className='fa-solid fa-file text-2xl mr-2'></i> Descargar CV
               </a>
             </div>
             <div className='h-64'>
@@ -59,13 +59,13 @@ export default function RootLayout({ children }) {
                 </li>
                 <li className='transition ease-in-out duration-300 hover:scale-110 hover:text-gray-300'>
                   <Link href='/studies'>
-                    <i class='fa-solid fa-graduation-cap text-2xl mr-2'></i>
+                    <i className='fa-solid fa-graduation-cap text-2xl mr-2'></i>
                     Estudios
                   </Link>
                 </li>
                 <li className='transition ease-in-out duration-300 hover:scale-110 hover:text-gray-300'>
-                  <Link href='/'>
-                    <i class='fa-solid fa-address-card text-2xl mr-2'></i>
+                  <Link href='/contact'>
+                    <i className='fa-solid fa-address-card text-2xl mr-2'></i>
                     Contacto
                   </Link>
                 </li>
