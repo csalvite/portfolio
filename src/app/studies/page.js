@@ -1,3 +1,4 @@
+'use client';
 import SwiperIcons from '@/components/SwiperIcons';
 
 export default function Home() {
@@ -13,10 +14,10 @@ export default function Home() {
 
       <section className='flex flex-col items-center justify-center gap-6 mt-6'>
         <article className='w-10/12 border p-4 rounded-md'>
-          <h4>
+          <h4 className='text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
             Desarrollo Web - <span>HACK A BOSS</span>
           </h4>
-          <h5>Septiembre 2021 - Marzo 2022</h5>
+          <h5 className='text-[#B0B0B0]'>Septiembre 2021 - Marzo 2022</h5>
           <div className='flex flex-col gap-4 my-8 text-justify'>
             <p>
               Mis estudios en hack a boss me han ayudado mucho a reforzar y
@@ -34,11 +35,11 @@ export default function Home() {
           </div>
         </article>
         <article className='w-10/12 border p-4 rounded-md'>
-          <h4>
+          <h4 className='text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
             Administración de Sistemas Informáticos en Red - IES Xulián
             Magariños
           </h4>
-          <h5>Septiembre 2018 - Septiembre 2020</h5>
+          <h5 className='text-[#B0B0B0]'>Septiembre 2018 - Septiembre 2020</h5>
           <div className='flex flex-col gap-4 my-8 text-justify'>
             <p>
               Trabajo directo con servidores y bases de datos para entender más
@@ -53,8 +54,10 @@ export default function Home() {
           </div>
         </article>
         <article className='w-10/12 border p-4 rounded-md'>
-          <h4>Desarrollo de Aplicaciones Multiplataforma - Tesdai</h4>
-          <h5>Septiembre 2016 - Septiembre 2018</h5>
+          <h4 className='text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
+            Desarrollo de Aplicaciones Multiplataforma - Tesdai
+          </h4>
+          <h5 className='text-[#B0B0B0]'>Septiembre 2016 - Septiembre 2018</h5>
           <div className='flex flex-col gap-4 my-8 text-justify'>
             <p>
               Desarrollo de aplicaciones móviles y de escritorio utilizando

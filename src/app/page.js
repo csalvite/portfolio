@@ -32,7 +32,7 @@ export default function Home() {
         Tecnologías que uso
       </h3>
       <section className='py-4 flex flex-wrap gap-6 items-center justify-center'>
-        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-gray-700 rounded-md'>
+        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
           <Image
             className='object-cover w-36'
             src='/React.webp'
@@ -49,7 +49,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-gray-700 rounded-md'>
+        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
           <Image src='/next.svg' alt='Next Logo' width={100} height={24} />
           <div className='flex flex-col gap-4 text-justify'>
             <h4 className='text-xl'>Next JS</h4>
@@ -59,7 +59,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-gray-700 rounded-md'>
+        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
           <Image
             className='object-cover w-36'
             src='/node.png'
@@ -75,7 +75,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-gray-700 rounded-md'>
+        <article className='w-5/12 min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
           <Image
             className='object-cover w-36'
             src='/js.png'
