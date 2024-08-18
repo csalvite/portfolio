@@ -1,5 +1,7 @@
-import Map from '@/components/Map';
-import Image from 'next/image';
+import dynamic from 'next/dynamic';
+
+// Importa el componente Map de manera dinámica y desactiva SSR
+const Map = dynamic(() => import('@/components/Map'), { ssr: false });
 
 export default function Home() {
   return (
