@@ -6,7 +6,7 @@ const Map = dynamic(() => import('@/components/Map'), { ssr: false });
 export default function Home() {
   return (
     <div>
-      <h3 className='text-2xl m-2 w-64 border-b-4 pb-2 inline-block text-[#edff21]'>
+      <h3 className='text-3xl m-2 w-56 border-b-4 pb-2 inline-block text-cyan-500'>
         Contacto
       </h3>
 

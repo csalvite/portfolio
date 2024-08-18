@@ -3,7 +3,7 @@ import SwiperIcons from '@/components/SwiperIcons';
 export default function Home() {
   return (
     <div>
-      <h3 className='text-2xl m-2 w-64 border-b-4 pb-2 inline-block text-[#edff21]'>
+      <h3 className='text-3xl m-2 w-96 border-b-4 pb-2 inline-block text-cyan-500'>
         Estudios y Tecnologías
       </h3>
 
@@ -13,66 +13,52 @@ export default function Home() {
 
       <section className='flex flex-col items-center justify-center gap-6 mt-6'>
         <article className='w-10/12 border p-4 rounded-md'>
-          <h4>CNTravel - Desarrollador Web</h4>
-          <h5>Febrero 2023 - Actualidad</h5>
+          <h4>
+            Desarrollo Web - <span>HACK A BOSS</span>
+          </h4>
+          <h5>Septiembre 2021 - Marzo 2022</h5>
           <div className='flex flex-col gap-4 my-8 text-justify'>
             <p>
-              Desarrollador Front-End con experiencia en el uso de tecnologías
-              como React.js y Next.js, complementando mi labor con apoyo en
-              tareas de desarrollo Back-End utilizando Node.js y Nest.js.
+              Mis estudios en hack a boss me han ayudado mucho a reforzar y
+              reciclar conocimientos de programación además de enfocarme hacia
+              donde quiero ir, que es el desarrollo.
             </p>
             <p>
-              Durante mi tiempo en CNTravel, he sido parte de un equipo con el
-              que hemos implementado nuevas funcionalidades desde cero en la
-              aplicación web, demostrando una fuerte capacidad resolutiva y una
-              alta implicación en el proyecto. Mi enfoque en la comunicación y
-              coordinación ha sido clave para contribuir con ideas innovadoras y
-              asegurar una colaboración efectiva con mis compañeros y
-              compañeras, también cabe destacar mis conocimientos en despliegue
-              de aplicaciones y apoyo a mantenimiento de servidores linux.
-            </p>
-            <p>
-              Además, me destaco por mi agilidad y eficiencia en la resolución
-              de incidencias, lo que garantiza la continuidad del servicio y
-              minimiza el tiempo de inactividad.
+              Las principales tecnologías que he podido practicar durante mi
+              paso por este curso ha sido <strong>ReactJS</strong> y{' '}
+              <strong>NodeJS</strong> poderosas herramientas basadas en{' '}
+              <strong>JavaScript</strong> donde he podido mejorar como
+              programador y realizar muchas prácticas y proyectos en equipo con
+              varios compañeros dentro y fuera de clase.
             </p>
           </div>
         </article>
         <article className='w-10/12 border p-4 rounded-md'>
-          <h4>HACKABOSS - Docente y Desarrollador Web</h4>
-          <h5>
-            Abril 2022 - Febrero 2023{' '}
-            <span className='text-xs'>(11 meses)</span>
-          </h5>
+          <h4>
+            Administración de Sistemas Informáticos en Red - IES Xulián
+            Magariños
+          </h4>
+          <h5>Septiembre 2018 - Septiembre 2020</h5>
           <div className='flex flex-col gap-4 my-8 text-justify'>
             <p>
-              Coordinación y organización de clases a distintos niveles para
-              iniciar alumnos al mundo de la programación.
+              Trabajo directo con servidores y bases de datos para entender más
+              allá de la programación y comprender los fundamentos del hardware
+              y software además de la capacidad de trabajar con distintos
+              servidores Windows y Linux.
             </p>
             <p>
-              En Hack a Boss he podido mejorar mis habilidades de comunicación
-              además de asentar conocimientos tan importantes como las bases de
-              la programación en JavaScript.
+              Las principales tecnologías que he podido utilizar y trabajar han
+              sido SQL Server, Redes, programación en PHP y servidores Linux.
             </p>
           </div>
         </article>
         <article className='w-10/12 border p-4 rounded-md'>
-          <h4>Plexus Tech - Soporte de Aplicaciones N2</h4>
-          <h5>
-            Noviembre 2020 - Marzo 2021{' '}
-            <span className='text-xs'>(5 meses)</span>
-          </h5>
+          <h4>Desarrollo de Aplicaciones Multiplataforma - Tesdai</h4>
+          <h5>Septiembre 2016 - Septiembre 2018</h5>
           <div className='flex flex-col gap-4 my-8 text-justify'>
             <p>
-              Trabajo con herramienta de tickets para resolución de incidencias
-              como técnico en soporte de aplicaciones N2 para el Hospital
-              Clínico de Santiago de Compostela.
-            </p>
-            <p>
-              Durante este período he podido especializarme en la consulta de
-              tablas de base de datos en SQL Server y trabajo con Windows
-              Server, además de mejorar mi capacidad de contacto con el cliente
-              y rápida resolución de los problemas.
+              Desarrollo de aplicaciones móviles y de escritorio utilizando
+              tecnologías como Java y C#.
             </p>
           </div>
         </article>

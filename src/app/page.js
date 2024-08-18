@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <h3 className='text-2xl m-2 w-32 border-b-4 pb-2 inline-block'>
+      <h3 className='text-3xl m-2 w-56 border-b-4 pb-2 inline-block text-cyan-500'>
         Sobre Mí
       </h3>
       <div className='flex flex-col gap-4 my-8 text-justify'>
@@ -28,7 +28,7 @@ export default function Home() {
           Linux.
         </p>
       </div>
-      <h3 className='text-2xl m-2 w-64 border-b-4 pb-2 inline-block'>
+      <h3 className='text-3xl m-2 w-96 border-b-4 pb-2 inline-block text-cyan-500'>
         Tecnologías que uso
       </h3>
       <section className='py-4 flex flex-wrap gap-6 items-center justify-center'>
