@@ -4,12 +4,12 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className='h-full'>
-      <h3 className='text-3xl m-2 w-56 border-b-4 pb-2 inline-block text-cyan-500'>
+    <div className='w-full h-full text-sm md:text-md'>
+      <h3 className='text-2xl md:text-3xl m-2 w-56 border-b-4 pb-2 inline-block text-cyan-500'>
         Mis Proyectos
       </h3>
 
-      <section className='h-full flex flex-wrap items-center justify-evenly gap-4'>
+      <section className='h-full flex flex-wrap items-center justify-evenly gap-4 mt-8'>
         <FlipCard
           title='EMUVI'
           subtitle='Web App de compraventa de artículos retro'
@@ -73,6 +73,7 @@ export default function Home() {
         <FlipCard
           title='Portfolio VyAdri'
           subtitle='Trabajo de creación de portfolio'
+          className='mb-8'
           text={
             <>
               <p>

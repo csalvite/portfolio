@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 
-const FlipCard = ({ title, subtitle, text, img }) => {
+const FlipCard = ({ title, subtitle, text, img, className = '' }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleMouseEnter = () => {
@@ -14,11 +14,15 @@ const FlipCard = ({ title, subtitle, text, img }) => {
   };
 
   return (
-    <ReactCardFlip isFlipped={isFlipped} flipDirection='horizontal'>
+    <ReactCardFlip
+      className='w-[120px]'
+      isFlipped={isFlipped}
+      flipDirection='horizontal'
+    >
       {/* Front Side */}
       <article
         onMouseEnter={handleMouseEnter}
-        className='cursor-pointer min-h-64 w-96 max-w-96 min-w-96 border p-4 rounded-md flex flex-col items-center justify-center gap-4'
+        className={`${className} cursor-pointer min-h-64 w-[320px] md:w-96 border p-4 rounded-md flex flex-col items-center justify-center gap-4`}
       >
         {img}
         <h4 className='text-3xl text-cyan-300'>{title}</h4>
@@ -28,7 +32,7 @@ const FlipCard = ({ title, subtitle, text, img }) => {
       {/* Back Side */}
       <article
         onMouseLeave={handleMouseLeave}
-        className='cursor-pointer min-h-64 w-96 max-w-96 min-w-96 border p-4 rounded-md'
+        className={`${className} cursor-pointer min-h-64 w-[320px] md:w-96 border p-4 rounded-md`}
       >
         <div className='flex flex-col gap-4 my-8 text-justify'>{text}</div>
       </article>
