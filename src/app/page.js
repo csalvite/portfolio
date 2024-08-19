@@ -81,7 +81,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
+        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md mb-12 md:mb-0'>
           <Image
             className='md:object-cover w-12 h-12 md:w-36 md:h-full'
             src='/js.png'

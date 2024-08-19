@@ -56,7 +56,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='w-full md:w-10/12 border p-4 rounded-md'>
+        <article className='w-full md:w-10/12 border p-4 rounded-md mb-12 md:mb-0'>
           <h4 className='text-xl md:text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
             Plexus Tech - Soporte de Aplicaciones N2
           </h4>

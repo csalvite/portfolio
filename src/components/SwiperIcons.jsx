@@ -14,8 +14,21 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Image from 'next/image';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 const SwiperIcons = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1000);
+    };
+
+    // Inicializar el tamaño
+    handleResize();
+  }, []);
+
   const icons = [
     '/js.png',
     '/next.svg',
@@ -32,8 +45,8 @@ const SwiperIcons = () => {
       // install Swiper modules
       className='h-full'
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-      spaceBetween={5}
-      slidesPerView={4}
+      spaceBetween={isMobile ? 20 : 5}
+      slidesPerView={isMobile ? 3 : 4}
       autoplay={{
         delay: 500, // Cambia las diapositivas cada 3 segundos
         disableOnInteraction: false, // Permite que el autoplay continúe después de la interacción del usuario
