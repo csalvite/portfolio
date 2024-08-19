@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
-      <h3 className='text-3xl m-2 w-96 border-b-4 pb-2 inline-block text-cyan-500'>
+    <div className='w-full text-sm md:text-md'>
+      <h3 className='text-2xl md:text-3xl m-2 w-64 md:w-96 border-b-4 pb-2 inline-block text-cyan-500'>
         Experiencia Laboral
       </h3>
 
       <section className='flex flex-col items-center justify-center gap-6 mt-6'>
-        <article className='w-10/12 border p-4 rounded-md'>
-          <h4 className='text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
+        <article className='w-full md:w-10/12 border p-4 rounded-md'>
+          <h4 className='text-xl md:text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
             CNTravel - Desarrollador Web
           </h4>
           <h5 className='text-[#B0B0B0]'>Febrero 2023 - Actualidad</h5>
@@ -36,8 +36,8 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='w-10/12 border p-4 rounded-md'>
-          <h4 className='text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
+        <article className='w-full md:w-10/12 border p-4 rounded-md'>
+          <h4 className='text-xl md:text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
             HACKABOSS - Docente y Desarrollador Web
           </h4>
           <h5 className='text-[#B0B0B0]'>
@@ -56,8 +56,8 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='w-10/12 border p-4 rounded-md'>
-          <h4 className='text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
+        <article className='w-full md:w-10/12 border p-4 rounded-md'>
+          <h4 className='text-xl md:text-3xl p-2 inline-block rounded-md bg-[#2c3e50] text-[#D3D3D3]'>
             Plexus Tech - Soporte de Aplicaciones N2
           </h4>
           <h5 className='text-[#B0B0B0]'>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className='w-10/12 md:w-full text-sm md:text-md'>
+    <div className='w-full text-sm md:text-md'>
       <h3 className='text-2xl md:text-3xl m-2 w-56 border-b-4 pb-2 inline-block text-cyan-500'>
         Sobre Mí
       </h3>
