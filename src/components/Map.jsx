@@ -12,12 +12,12 @@ const customIcon = new L.Icon({
   popupAnchor: [1, -34], // Punto de anclaje del popup
 });
 
-const MyMap = () => {
+const MyMap = ({ fullw = false }) => {
   return (
     <MapContainer
       center={[42.84064, -8.90257]}
       zoom={10}
-      style={{ height: '300px', width: '80%' }}
+      style={{ height: '300px', width: fullw ? '100%' : '80%' }}
     >
       <TileLayer
         url='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
