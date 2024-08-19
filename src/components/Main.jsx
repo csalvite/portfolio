@@ -102,7 +102,7 @@ const Main = ({ children }) => {
 
       <section
         ref={sectionRef}
-        className={`bg-[#353839] w-full flex-1 rounded-md p-2 md:p-8 border-0 md:border-2 border-black overflow-y-scroll ${
+        className={`bg-[#353839] w-12/12 flex-1 flex justify-center rounded-md p-2 md:p-8 border-0 md:border-2 border-black overflow-y-scroll ${
           isMobile ? 'pt-96' : ''
         }`}
       >

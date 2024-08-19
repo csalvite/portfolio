@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
-      <h3 className='text-3xl m-2 w-56 border-b-4 pb-2 inline-block text-cyan-500'>
+    <div className='w-10/12 md:w-full text-sm md:text-md'>
+      <h3 className='text-2xl md:text-3xl m-2 w-56 border-b-4 pb-2 inline-block text-cyan-500'>
         Sobre Mí
       </h3>
       <div className='flex flex-col gap-4 my-8 text-justify'>
@@ -28,13 +28,13 @@ export default function Home() {
           Linux.
         </p>
       </div>
-      <h3 className='text-3xl m-2 w-96 border-b-4 pb-2 inline-block text-cyan-500'>
+      <h3 className='text-2xl md:text-3xl m-2 w-64 md:w-96 border-b-4 pb-2 inline-block text-cyan-500'>
         Tecnologías que uso
       </h3>
       <section className='py-4 flex flex-wrap gap-6 items-center justify-center'>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
+        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
           <Image
-            className='object-cover w-36'
+            className='object-cover w-12 h-12 md:w-36 md:h-full'
             src='/React.webp'
             alt='React Logo'
             width={100}
@@ -49,8 +49,14 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
-          <Image src='/next.svg' alt='Next Logo' width={100} height={24} />
+        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
+          <Image
+            className='md:object-cover w-12 h-12 md:w-36 md:h-full'
+            src='/next.svg'
+            alt='Next Logo'
+            width={100}
+            height={32}
+          />
           <div className='flex flex-col gap-4 text-justify'>
             <h4 className='text-xl'>Next JS</h4>
             <p className='w-10/12'>
@@ -59,9 +65,9 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
+        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
           <Image
-            className='object-cover w-36'
+            className='md:object-cover w-12 h-12 md:w-36 md:h-full'
             src='/node.png'
             alt='Node Logo'
             width={100}
@@ -75,9 +81,9 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex gap-4 bg-[#414547] rounded-md'>
+        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
           <Image
-            className='object-cover w-36'
+            className='md:object-cover w-12 h-12 md:w-36 md:h-full'
             src='/js.png'
             alt='JS Logo'
             width={100}
