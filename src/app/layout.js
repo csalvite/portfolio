@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='es'>
       <body className='flex justify-center items-center bg-neutral-800'>
-        <main className='flex gap-4 w-10/12 h-full p-16 text-[#f5f5f5]'>
+        <main className='flex gap-4 2xl:w-10/12 xl:w-[1500px] lg:w-full h-full lg:p-16 md:p-0 text-[#f5f5f5]'>
           <aside className='bg-[#353839] flex flex-col items-center justify-evenly px-4 w-96 h-100 rounded-md border border-black'>
             <div className='mt-8 flex flex-col items-center justify-center gap-4'>
               <Image
