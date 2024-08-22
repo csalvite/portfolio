@@ -24,7 +24,7 @@ const MyMap = ({ fullw = false }) => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution">CARTO</a>'
       />
       <Marker position={[42.84064, -8.90257]} icon={customIcon}>
-        <Popup>Tu desarrollador de confianza.</Popup>
+        <Popup>holi 😄</Popup>
       </Marker>
     </MapContainer>
   );

@@ -52,7 +52,7 @@ const Menu = () => {
           Proyectos
         </Link>
       </li>
-      <li className='transition ease-in-out duration-300 hover:scale-110 hover:text-gray-300'>
+      <li className='transition ease-in-out duration-300 hover:scale-110 hover:text-gray-300 p-2'>
         <Link href='/contact' className='flex items-center'>
           <i className='fa-solid fa-address-card text-2xl mr-2'></i>
           Contacto

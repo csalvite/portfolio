@@ -72,10 +72,6 @@ export default function Home() {
               <h4 className='text-lg mr-4'>Email: </h4>
               <p className='text-cyan-300'>csalvite@gmail.com</p>
             </div>
-            <p>
-              Puede ponerse en contacto conmigo para trabajos autónomos y demás
-              e que ainda non sei que carallo poñer aqui xd.
-            </p>
           </section>
         </>
       )}

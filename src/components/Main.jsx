@@ -61,7 +61,7 @@ const Main = ({ children }) => {
     <main className='flex flex-col lg:flex-row gap-4 w-full h-full p-0 md:p-4 lg:p-16 text-[#f5f5f5]'>
       <aside
         ref={asideRef}
-        className={`bg-[#353839] flex flex-col xl:w-80 w-full items-center justify-between p-4 rounded-md border border-black transition-transform duration-300 ${
+        className={`bg-[#353839] flex flex-col w-full xl:w-[30rem]   items-center justify-around p-4 rounded-md border border-black transition-transform duration-300 ${
           isMobile
             ? showAside
               ? 'fixed'
@@ -71,29 +71,29 @@ const Main = ({ children }) => {
       >
         <div className='flex flex-col items-center justify-center gap-4'>
           <Image
-            className='w-24 h-24 md:w-44 md:h-44 object-cover rounded-full'
+            className='w-24 h-24 md:w-36 md:h-36 lg:w-44 lg:h-44 object-cover rounded-full'
             src='/fotoperfil.jpg'
             alt='Imagen de perfil de César Alvite'
-            width={176} // Asegura una relación de aspecto coherente
+            width={176}
             height={176}
             quality={100}
           />
-          <div className='text-center'>
+          <div className='text-center flex flex-col gap-2 xl:gap-4'>
             <h1 className='text-xl md:text-3xl text-cyan-500'>César Alvite</h1>
             <h2 className='bg-[#d0cfd3] p-2 rounded-md text-xs md:text-md text-[#353839] font-semibold'>
               Desarrollador Web
             </h2>
           </div>
-        </div>
 
-        <a
-          className='text-sm mt-4 hover:text-cyan-500 transition ease-in-out duration-300'
-          download
-          href='/CesarAlviteCV.pdf'
-          aria-label='Descargar CV de César Alvite'
-        >
-          <i className='fa-solid fa-file text-2xl mr-2'></i> Descargar CV
-        </a>
+          <a
+            className='text-sm mt-4 hover:text-cyan-500 transition ease-in-out duration-300'
+            download
+            href='/CesarAlviteCV.pdf'
+            aria-label='Descargar CV de César Alvite'
+          >
+            <i className='fa-solid fa-file text-2xl mr-2'></i> Descargar CV
+          </a>
+        </div>
 
         <nav className='mt-6'>
           <Menu />
@@ -102,7 +102,7 @@ const Main = ({ children }) => {
 
       <section
         ref={sectionRef}
-        className={`bg-[#353839] w-12/12 flex-1 flex justify-center rounded-md p-2 md:p-8 border-0 md:border-2 border-black overflow-y-scroll ${
+        className={`bg-[#353839] w-12/12 md:flex-auto flex-1 flex justify-center rounded-md p-2 md:p-8 border-0 md:border-2 border-black overflow-y-scroll ${
           isMobile ? 'pt-[320px]' : ''
         }`}
       >
