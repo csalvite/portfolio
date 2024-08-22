@@ -9,7 +9,7 @@ export default function Home() {
         Mis Proyectos
       </h3>
 
-      <section className='h-full flex flex-wrap items-center justify-evenly gap-4 mt-8'>
+      <section className='h-full flex flex-wrap items-center md:items-start justify-evenly gap-4 mt-8'>
         <FlipCard
           title='EMUVI'
           subtitle='Web App de compraventa de artículos retro'
@@ -97,6 +97,38 @@ export default function Home() {
               className='w-32'
               src='/vyadri.png'
               alt='vyadri project'
+              width={150}
+              height={200}
+            />
+          }
+        />
+
+        <FlipCard
+          title='Piedra Papel o Tijeras'
+          subtitle='Ejercicio de creación de un juego'
+          className='mb-8'
+          text={
+            <>
+              <p>
+                Alguno de los proyectos basado en javascript para crear el
+                típico juego de piedra papel o tijeras.
+              </p>
+              <p>
+                <a
+                  className='hover:text-cyan-500 text-cyan-300 transition duration-300'
+                  href='https://rock-paper-scissors-mcz38lfbp-csalvite.vercel.app/'
+                  target='_blank'
+                >
+                  https://rock-paper-scissors-mcz38lfbp-csalvite.vercel.app/
+                </a>
+              </p>
+            </>
+          }
+          img={
+            <Image
+              className='w-32'
+              src='/rock-paper-scissors.png'
+              alt='rock-paper-scissors'
               width={150}
               height={200}
             />
