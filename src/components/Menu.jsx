@@ -28,7 +28,7 @@ const Menu = () => {
   return mobile ? (
     <MobileMenu />
   ) : (
-    <ul className='flex xl:flex-col md:flex-row xl:gap-6 lg:gap-2 list-none cursor-pointer'>
+    <ul className='flex xl:flex-col md:flex-row xl:gap-6 lg:gap-2 md:text-sm list-none cursor-pointer'>
       <li className='flex items-center transition ease-in-out duration-300 hover:scale-110 hover:text-gray-300 p-2'>
         <Link href='/' className='flex items-center justify-between'>
           <i className='fa-solid fa-user text-2xl mr-2'></i> Sobre Mí

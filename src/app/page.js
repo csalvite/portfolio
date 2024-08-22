@@ -32,7 +32,7 @@ export default function Home() {
         Tecnologías que uso
       </h3>
       <section className='py-4 flex flex-wrap gap-6 items-center justify-center'>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
+        <article className='2xl:w-[32rem] xl:w-full min-h-44 p-4 flex items-center gap-4 bg-[#414547] rounded-md'>
           <Image
             className='object-cover w-12 h-12 md:w-36 md:h-full'
             src='/React.webp'
@@ -49,7 +49,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
+        <article className='2xl:w-[32rem] xl:w-full min-h-44 p-4 flex items-center gap-4 bg-[#414547] rounded-md'>
           <Image
             className='md:object-cover w-12 h-12 md:w-36 md:h-full'
             src='/next.svg'
@@ -65,7 +65,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md'>
+        <article className='2xl:w-[32rem] xl:w-full min-h-44 p-4 flex items-center gap-4 bg-[#414547] rounded-md'>
           <Image
             className='md:object-cover w-12 h-12 md:w-36 md:h-full'
             src='/node.png'
@@ -81,7 +81,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-        <article className='2xl:w-[32rem] xl:w-fit min-h-44 p-4 flex items-center md:items-start gap-4 bg-[#414547] rounded-md mb-12 md:mb-0'>
+        <article className='2xl:w-[32rem] xl:w-full min-h-44 p-4 flex items-center gap-4 bg-[#414547] rounded-md mb-12 md:mb-0'>
           <Image
             className='md:object-cover w-12 h-12 md:w-36 md:h-full'
             src='/js.png'

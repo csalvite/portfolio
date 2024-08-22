@@ -61,7 +61,7 @@ const Main = ({ children }) => {
     <main className='flex flex-col lg:flex-row gap-4 w-full h-full p-0 md:p-4 lg:p-16 text-[#f5f5f5]'>
       <aside
         ref={asideRef}
-        className={`bg-[#353839] flex flex-col xl:w-96 w-full items-center justify-between p-4 rounded-md border border-black transition-transform duration-300 ${
+        className={`bg-[#353839] flex flex-col xl:w-80 w-full items-center justify-between p-4 rounded-md border border-black transition-transform duration-300 ${
           isMobile
             ? showAside
               ? 'fixed'
